@@ -1,6 +1,16 @@
 # Testing "The Internet"!
 
-A basic Playwright and Typescript repo to demonstrate how we can write end to end tests for the basic website hosted at [http://the-internet.herokuapp.com/](http://the-internet.herokuapp.com/).
+## Notes to assessors:
+
+There is a feature branch in this repo that demonstrates how we could use page object models for our tests. Using page objects isn't always the best way to go about things, but they can be very useful depending on what it is you want to do in your tests. If different tests have to take the same path through the application, then defining page objects can make writing and maintaining tests a bit more straightforward.
+
+Of course, for this very basic single test, they don't add much value, they just add another layer of indirection. I prefer not to implement page objects until their benefit is clear - otherwise, a simpler codebase is arguably preferable.
+
+The page object code is available in the `feature/page-object-model` branch.
+
+## Introduction
+
+This is a basic Playwright and Typescript repo to demonstrate how we can write end to end tests for the sample website hosted at [http://the-internet.herokuapp.com/](http://the-internet.herokuapp.com/).
 
 ## Getting set up
 
